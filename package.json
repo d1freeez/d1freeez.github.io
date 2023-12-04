@@ -30,7 +30,7 @@
     "videojs-contrib-hls": "^5.15.0",
     "vue-affix": "^0.5.2",
     "vue-authenticate": "^1.5.0",
-    "vue-awesome-swiper": "^4.1.1",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-google-signin-button": "^1.0.4",
     "vue-infinite-loading": "^2.4.5",
     "vue-lazy-images": "^1.4.6",
