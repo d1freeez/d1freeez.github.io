@@ -1,0 +1,106 @@
+@media screen and (max-width: 1400px){
+  //body{
+  //  transform: scale(0.8);
+  //  transform-origin: top left;
+  //  width: 125vw;
+  //  height: 125vh;
+  //
+  //  .overview {
+  //    min-height: calc(125vh - 250px);
+  //  }
+  //}
+
+  body{
+    .container{
+      width: 100%;
+      max-width: unset;
+      margin: 0;
+      padding: 0 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body{
+    .player-view{
+      margin-top: 30px;
+
+      .video-player-box {
+        min-height: 250px;
+        height: 250px;
+        display: block;
+
+        .video-js{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .carousel {
+      .button-prev, .button-next {
+        display: none;
+        opacity: 0;
+      }
+    }
+
+    .title{
+      p{
+        font-size: 25px;
+        margin-bottom: 0;
+
+        &:after{
+          top: -5px;
+        }
+      }
+
+      a{
+        font-size: 16px;
+        line-height: 20px;
+
+        svg{
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .title p span{
+      width: 100%;
+    }
+
+    .container{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  .learn ul{
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+
+  .nav-tabs .tabs{
+    overflow: hidden;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar-thumb{
+      background: transparent;
+    }
+
+    .scrollactive-item{
+      white-space: nowrap;
+    }
+  }
+
+  .header {
+    .container {
+      ._select{
+        &:hover{
+          z-index: 9999;
+          opacity: 1;
+          visibility: unset;
+        }
+      }
+    }
+  }
+}
