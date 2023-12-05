@@ -34,7 +34,7 @@
     "vue-google-signin-button": "^1.0.4",
     "vue-infinite-loading": "^2.4.5",
     "vue-lazy-images": "^1.4.6",
-    "vue-mobile-detection": "^1.0.0",
+    "vue-mobile-detection": "^2.0.1",
     "vue-moment": "^4.1.0",
     "vue-scroll-reveal": "^2.1.0",
     "vue-scrollactive": "^0.9.3",
